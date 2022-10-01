@@ -1,0 +1,68 @@
+*,
+html, 
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+}
+body {
+	background-image : url(flower.png);
+}
+.container {
+	max-width: 650px; 
+	margin: auto; 
+}
+header {
+	width: 100%;
+	background-color: #FF0D00;
+	text-align: center; 
+	padding: 10px; 
+}
+header h2 {
+	font-size: 25px; 
+	color: white; 
+	font-family: sans-serif; 
+}
+
+
+/* content */
+
+main {
+	width: 100%;
+}
+.main {
+	width: 100%;
+	padding: 10px; 
+	background: #fff; 
+}
+.fos {
+	width: 100%;
+	border-top: 5px solid white; 
+}
+main p {
+	font-size: 14px; 
+	text-align: justify; 
+}
+ol {
+	margin-left: 30px; 
+	font-size: 14px; 
+}
+li {
+	font-size: 14px; 
+}
+#click {
+	background: red; 
+	color: white; 
+	font-size: 1.5em;
+	padding: 10px; 
+	width: 100%; 
+	border: none; 
+	border-radius: 8px;
+	font-weight: bold; 
+	cursor: pointer; 
+}
+#click:hover {
+	background: #f7f7f7;
+	transition: .3s; 
+	color: red; 
+}
